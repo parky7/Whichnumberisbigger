@@ -11,6 +11,7 @@ public class BiggerNumberGame {
     public BiggerNumberGame(int lowerLimit, int upperLimit) {
         this.lowerLimit = lowerLimit;
         this.upperLimit = upperLimit;
+        generateRandom();
     }
 
     public void generateRandom() {
